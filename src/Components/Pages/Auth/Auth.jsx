@@ -67,7 +67,9 @@ function Auth() {
   return (
     <section className={classes.login}>
       <Link to="/">
-        <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon logo" />
+      {/* https://pngimg.com/uploads/amazon/amazon_PNG11.png */}
+      
+        <img src="https://pngimg.com/uploads/amazon/amazon_PNG6.png" alt="amazon logo" />
       </Link>
       <div className={classes.login_container}>
         <h1>Sign In</h1>

@@ -10,7 +10,8 @@
 }
 
 .orders_container h2 {
-    border-bottom: 2px solid d49644;
+    /* border-bottom: 2px solid d49644; */
+    border-bottom: 2px solid #d49644;
     /* var(--primary-shade); */
     padding: 20px;
     padding-top: 30px;
