@@ -8,6 +8,7 @@
     color: white;
      line-height: 1.6em;
     font-weight: 500; 
+    list-style: none;
   }
   .footer_backToTop {
     display: block;
@@ -46,22 +47,23 @@
     margin: 5px auto;
     color: #ddd;
     white-space: normal;
+    
+  }
+  .footer_link ul  {
+    list-style:none;
   }
   .footer_link a :hover {
     text-decoration: underline;
   }
-  .ScrollUpButton_Container,
-  .ScrollUpButton_Toggled {
-    background-color: transparent !important;
-    position: relative !important;
-    z-index: 1000;
-    margin-bottom: -50px;
-    margin-left: -50px !important;
-    width: 100% !important;
-    height: 35px !important;
-    padding: 10px 10px 0 10px !important;
-    outline: none !important;
-    opacity: 0 !important;
-    overflow: hidden;
+  @media screen and (max-width:576px) {
+    .footer_link {
+        display: none;
+        /* flex-direction: column; */
+        height: auto;
+    }
+    .footer_linksTitle{
+      display: none;
+    
+    }
   }
   
